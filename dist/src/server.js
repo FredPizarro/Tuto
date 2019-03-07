@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const environment_1 = require("./environment");
+const environment_1 = require("../environment");
 class Server {
     constructor() {
         this.app = express_1.default();

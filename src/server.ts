@@ -1,5 +1,5 @@
 import express from 'express';
-import { SERVER_PORT } from './environment';
+import { SERVER_PORT } from '../environment';
 
 export default class Server{
 
