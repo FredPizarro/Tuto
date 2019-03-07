@@ -16,3 +16,6 @@
 - Nodemon
   `nodemon dist/index`
   `npm run build`
+
+## Node modules 
+- `npm install`
