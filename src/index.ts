@@ -1,9 +1,9 @@
-import Server from "./src/server";
-import router from "./src/routes/router";
+import Server from "./server";
+import router from "./routes/router";
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-const serve = new Server();
+const serve = Server.instance;
 
 //This body-parser module parses the JSON, buffer, string and URL encoded data submitted using HTTP POST request.
 serve.app.use( bodyParser.urlencoded({ extended: true }) );
